@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+char buff[15],p[6]="mohit";
+int pass=0,i=0;
+printf("\nEnter Password\n");
+scanf("%s",buff);
+while(buff != '\0')
+{
+printf("%c",buff[i]);
+i++;
+}
+printf("\n");
+if(strcmp(buff,p))
+{
+printf("Wrong Password");
+}
+else
+{
+printf("Correct Password");
+pass=1;
+}
+if(pass)
+{
+printf("Root priviledges given to user");
+}
+return 0;
+}
+
+/*
+sudo apt-get install gcc
+cd Desktop/
+mkdir CProgramming
+cd CProgramming/
+nano test.c
+gcc test.c -o compilfile
+./compilfile
+*/
