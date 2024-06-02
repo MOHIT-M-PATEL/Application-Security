@@ -1,0 +1,12 @@
+nmap techstartup.com
+sudo nmap -sA techstartup.com
+nmap 15.197.148.*
+nmap 15.197.148.23-25
+sudo nmap -sS 15.197.148.33
+sudo nmap -sS techstartup.com -oG op.txt
+cat input.txt
+nmap -iL input.txt
+
+nmap -p 8000-10000 google.com
+sudo nmap --trace amazon.in
+sudo nmap -O amazon.in
