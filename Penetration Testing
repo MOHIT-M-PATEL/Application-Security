@@ -1,0 +1,9 @@
+nslookup > hrmanagementsoftware.com
+ping hrmanagementsoftware.com
+dig hrmanagementsoftware.com
+nmap 76.223.54.146
+sudo nmap -sA -O -p 0-65535 hrmanagementsoftware.com
+Website Attack Vectors(2)
+Credential Harvester Attack(3)
+Web Templates(1)
+Google(2)
